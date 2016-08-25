@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html> <!-- Starting tag for html-->
+	<head>
+		<!-- Where scripts and styles often go-->
+		<style>
+			/*CSS Code goes here*/
+			body {
+				background-color : Moccasin;
+				text-align: left;
+			}
+			
+			h1 {
+				color : Teal;
+				text-align: center;
+				text-decoration: underline;
+			}
+			#main {
+				margin: auto;
+				width: 600px;
+				border: 6px groove black;
+			}
+			/* refer to a class, you put a period in front of the class name */
+			.orange-text {
+				color: Orange;
+			}
+			.blue-text {
+				color: Blue;
+			}
+			a:link {
+				color: Red;
+				background-color: #f44336;
+			}
+			a:visited {
+				color: Green;
+				background-color: #4DFE00;
+			}
+			a:hover {
+				color: hotpink;
+				background-color: #FE00E3;
+			}
+			a:active {
+				color: Green;
+				background-color: #4DFE00;
+			}
+			a:link, a:visited {
+   				background-color: #f44336;
+				color: white;
+				padding: 3.5px 6.25px;
+				text-align: center; 
+				text-decoration: none;
+				display: inline-block;
+			}
+
+			a:hover, a:active {
+   				background-color: red;
+			}
+		</style>
+	</head>
+	<body text="CadetBlue">
+		
+		<div id="main">
+		<!-- What you put here is what's
+		displayed on the screen!-->
+		<h1>Top 5 Things I Did This Summer</h1>
+		<img src="food.jpg" width="549" height="365	" alt="food.jpg">
+			<ol type="1">
+				<li class="blue-text">Sleep</li> <!-- AKA columns-->
+				<li class="orange-text">Eat good food</li>
+				<li class="blue-text">Sleep more</li>
+				<li class="orange-text">Watch the <a href=http://www.olympic.org/ target="_blank">Olympics</a></li>
+				<li class="blue-text">Do homework</li>
+			</ol>
+		</div>
+	</body>
+</html> <!-- Ending tag has a slash in front -->	
